@@ -1,4 +1,4 @@
-MY PIECES
+## MY PIECES
 
 For my final project I implemented the [bonus hw](http://panda.moyix.net/~moyix/cs3224/fall16/bonus_hw/bonus_hw.html) of Brendan Dolan-Gavitt's
 OS class at NYU.
@@ -10,13 +10,13 @@ I also added the mouse.c. The bulk of my code exists in console.c and mouse.c.
 This project runs with a standard `make qemu`. `make qemu-nox` doesn't provide
 the needed interface for using the mouse driver.
 
-ORIGINAL XV6 README
+## ORIGINAL XV6 README
 
 xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
 Version 6 (v6).  xv6 loosely follows the structure and style of v6,
 but is implemented for a modern x86-based multiprocessor using ANSI C.
 
-ACKNOWLEDGMENTS
+## ACKNOWLEDGMENTS
 
 xv6 is inspired by John Lions's Commentary on UNIX 6th Edition (Peer
 to Peer Communications; ISBN: 1-57398-013-7; 1st edition (June 14,
@@ -24,6 +24,7 @@ to Peer Communications; ISBN: 1-57398-013-7; 1st edition (June 14,
 provides pointers to on-line resources for v6.
 
 xv6 borrows code from the following sources:
+    
     JOS (asm.h, elf.h, mmu.h, bootasm.S, ide.c, console.c, and others)
     Plan 9 (entryother.S, mp.h, mp.c, lapic.c)
     FreeBSD (ioapic.c)
@@ -46,14 +47,14 @@ Zhang, Icenowy Zheng, and Zou Chang Wei.
 The code in the files that constitute xv6 is
 Copyright 2006-2016 Frans Kaashoek, Robert Morris, and Russ Cox.
 
-ERROR REPORTS
+## ERROR REPORTS
 
 Please send errors and suggestions to Frans Kaashoek and Robert Morris
 (kaashoek,rtm@mit.edu). The main purpose of xv6 is as a teaching
 operating system for MIT's 6.828, so we are more interested in
 simplifications and clarifications than new features.
 
-BUILDING AND RUNNING XV6
+## BUILDING AND RUNNING XV6
 
 To build xv6 on an x86 ELF machine (like Linux or FreeBSD), run
 "make". On non-x86 or non-ELF machines (like OS X, even on x86), you
